@@ -71,11 +71,11 @@
       <div id="progressBar"></div>
     </div>
     <div class="container">
-      <img src="./under-construction.png" alt="Bramer Logo">
+      <img src="./under-construction.png" alt="under construction">
       <h1>Under Maintenance</h1>
       <p>Sorry for the inconvenience but our website is currently undergoing maintenance.</p>
       <p class="contact">In the meantime, reach us at: <a href="mailto:contact@bramer.in">contact@bramer.in</a></p>
-      <p id="redirection">redirecting to our linkedIn page ...</p>
+      <p id="redirection">redirecting to our linkedIn page </p>
   </div>
     <script>
       let progressBar = document.getElementById('progressBar');
@@ -91,7 +91,7 @@
           progressBar.style.width = width + '%';
           progressBar.innerHTML = width + '%';
         }
-      }, 60);
+      }, 80);
 
       let blinkingInterval = setInterval(function() {
         if (width >= 100) {
